@@ -1,0 +1,126 @@
+body {
+    background-image:url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    min-height: 100%;
+    font-family: "arial-black";
+    width: 720px;
+    margin: auto;
+
+}
+
+#list1 {
+list-style-image: url(img/bullet.gif);
+
+}
+
+#container {
+    width: 720px;
+	margin: auto;
+	padding: 0;
+    display: center;
+    background: url(img/title.jpg), url(img/middle.jpg), url('img/footer.gif'), url(img/full.jpg);
+    background-repeat:no-repeat, no-repeat, no-repeat, repeat-y;
+    background-position: top right, 404px 0, bottom left 110%, center;
+    background-color: black;
+    height: 100%; 
+}
+
+.menu {
+display:flex;
+position:center;
+margin-left:80px;
+
+}
+
+#content li{
+    list-style-image: url(img/bullet.gif)
+    }
+
+
+.sousmenu ul {
+list-style-type: none;
+background-color:#141514;
+padding:0;
+color:#656A69;
+margin:10px;
+font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+
+}
+
+h2 {
+    background-color: yellow;
+    color: black;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+h1 {
+   color: white;
+   border-top: 4px solid yellow;
+   margin-top: 10px;
+   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+#resume {
+    border-bottom:4px solid yellow;
+    border-top: 4px solid yellow;
+     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+     width: 404px;
+     background: gray;
+     margin-left: 10px;
+     margin-bottom: 10px;
+     color: white;  
+     text-align: justify;
+}
+
+#comments {
+    text-align: justify;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    width: 404px; 
+    margin-left: 20px;
+    border-left: 4px solid yellow;
+    margin-right: 500px;
+}
+
+#content {
+    color: white;
+    width: 404px;
+    text-align: justify;
+    
+}
+
+#titre {
+    color: white;
+}
+
+.skate {
+    float: left;
+    border-style: solid;
+    border-width: 5px;
+    border-color: yellow;
+    
+}
+
+footer {
+    color: white;
+}
+
+.skate2 {
+    float: right;
+    border-style: solid;
+    border-width: 5px;
+    border-color: yellow;
+}
+
+.freeStyle {        
+color:white;
+font-family:'Arial Black', sans-serif;
+font-style: bold;
+font-size: 30px;
+margin-left: 480px;
+position: relative;
+top: 100px;
+
+    
+}
+
